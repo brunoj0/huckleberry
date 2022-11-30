@@ -14,20 +14,27 @@ body {
 
 /* Add styles here! */
 .intro-chunk {
+    margin: auto;
     margin-top: 96px;
     padding-left: 24px;
     padding-bottom: 64px;
-    border-bottom: 8px solid #999999;
+    max-width: 800px;
 }
-.title{
+section {
+    background-color: #666666;
+    padding: 72px 0;
+    border-top: 8px solid #999999;
+}
+.title {
     padding-bottom: 48px;
 }
 .intro-chunk p {
     max-width: 401px;
 }
 .card {
-    border-top: 72px solid #666666;
-    border-bottom: 72px solid #666666;
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
     padding-top: 8px;
 }
 .indented-heading {
@@ -36,9 +43,8 @@ body {
     padding: 16px 32px;
     margin: 0;
     line-height: 29px;
-    border-bottom: 8px solid #CC9900
-    ;
-
+    margin-left: -8px;
+    border-bottom: 8px solid #cc9900;
 }
 .card p {
     padding: 24px;
@@ -59,6 +65,6 @@ main {
 strong {
     color: #009966;
 }
-em{
+em {
     font-style: normal;
 }
